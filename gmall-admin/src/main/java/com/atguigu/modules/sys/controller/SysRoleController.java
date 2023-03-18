@@ -18,6 +18,7 @@ import com.atguigu.modules.sys.service.SysRoleMenuService;
 import com.atguigu.modules.sys.service.SysRoleService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -29,6 +30,7 @@ import java.util.Map;
  *
  * @author Mark sunlightcs@gmail.com
  */
+
 @RestController
 @RequestMapping("/sys/role")
 public class SysRoleController extends AbstractController {

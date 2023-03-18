@@ -1,0 +1,4 @@
+#freemarker:
+#  suffix: .ftl
+#  charset: utf-8
+#  request-context-attribute: request
